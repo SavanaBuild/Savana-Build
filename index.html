@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Savana Build | Jasa Bangun & Renovasi Rumah</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background-color: #2f2f2f;
+      padding: 20px;
+      color: white;
+      text-align: center;
+    }
+    header img {
+      max-height: 60px;
+    }
+    nav {
+      background-color: #444;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .hero {
+      background: url('https://source.unsplash.com/1600x600/?house,architecture') no-repeat center center/cover;
+      padding: 100px 20px;
+      color: white;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 3em;
+      margin: 0;
+    }
+    .section {
+      padding: 50px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .section h2 {
+      text-align: center;
+      margin-bottom: 30px;
+      color: #333;
+    }
+    .cards {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+    .card {
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      padding: 20px;
+      flex: 1 1 300px;
+    }
+    footer {
+      background-color: #222;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    .social {
+      margin-top: 10px;
+    }
+    .social a {
+      margin: 0 10px;
+      color: white;
+      text-decoration: none;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      max-width: 500px;
+      margin: auto;
+    }
+    input, textarea {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+    button {
+      padding: 10px;
+      background-color: #2f2f2f;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #444;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="/path/to/savana-logo.png" alt="Savana Build Logo">
+    <h1>Savana Build</h1>
+    <p>Ahli Bangun & Renovasi Rumah Terpercaya</p>
+  </header>
+
+  <nav>
+    <a href="#tentang">Tentang</a>
+    <a href="#layanan">Layanan</a>
+    <a href="#kontak">Kontak</a>
+  </nav>
+
+  <section class="hero">
+    <h1>Wujudkan Rumah Impian Anda</h1>
+    <p>Kami hadir untuk bangun & renovasi rumah dengan kualitas terbaik</p>
+  </section>
+
+  <section class="section" id="tentang">
+    <h2>Tentang Kami</h2>
+    <p>Savana Build adalah perusahaan jasa bangun dan renovasi rumah yang berbasis di Indonesia. Kami mengutamakan kualitas, ketepatan waktu, dan kepuasan pelanggan. Dari rumah tinggal hingga renovasi interior, kami siap membantu mewujudkan hunian impian Anda.</p>
+  </section>
+
+  <section class="section" id="layanan">
+    <h2>Layanan Kami</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Bangun Rumah Baru</h3>
+        <p>Dari desain awal hingga rumah jadi, kami siap mengerjakan proyek Anda secara menyeluruh.</p>
+      </div>
+      <div class="card">
+        <h3>Renovasi Rumah</h3>
+        <p>Perbaikan struktural, penataan ulang ruangan, atau peningkatan estetika, kami siap membantu.</p>
+      </div>
+      <div class="card">
+        <h3>Desain Arsitektur</h3>
+        <p>Layanan desain rumah modern, minimalis, klasik, hingga industrial sesuai keinginan Anda.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="kontak">
+    <h2>Hubungi Kami</h2>
+    <form action="#" method="POST">
+      <input type="text" name="nama" placeholder="Nama Anda" required>
+      <input type="email" name="email" placeholder="Email Anda" required>
+      <textarea name="pesan" rows="5" placeholder="Pesan Anda" required></textarea>
+      <button type="submit">Kirim Pesan</button>
+    </form>
+    <p>Atau hubungi kami langsung:<br>📞 0812-3456-7890<br>📧 savanabuild@email.com<br>📍 Jakarta, Indonesia</p>
+    <div class="social">
+      <p>Ikuti kami di:</p>
+      <a href="#">Instagram</a>
+      <a href="#">Facebook</a>
+      <a href="#">WhatsApp</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Savana Build. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
